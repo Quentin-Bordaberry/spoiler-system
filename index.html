@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP JS spoiler</title>
+    <style>
+        body {
+            color: #424242;
+            font-family: sans-serif;
+        }
+
+         .spoiler-content {
+            display: inline-block;
+            width: 0;
+            height: 0;
+            opacity: 0;
+            overflow: hidden;
+            transition: opacity 0.3s;
+        }
+
+        .spoiler-content.visible {
+            display: inline;
+            width: auto;
+            height: auto;
+            opacity: 1;
+        } 
+
+        
+
+    </style>
+</head>
+<body>
+    <p>
+        Alors que Ned Starck s'apprête à être promu main du roi, il <sapn class="spoiler">se fait trancher la tête.</span>
+    </p>
+
+    
+        
+    <p>
+        <span>D'après Génova (une intelligence artificielle crée par Google) <span class="spoiler">Sylvester Stalon</span> sera élu président des Etats-Unis d'Amérique en 2021.</span>
+    </p>
+
+    <script src="spoiler.js"></script>
+</body>
+</html>
